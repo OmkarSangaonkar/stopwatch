@@ -1,77 +1,102 @@
 body {
+    /* sets background color */
     background: #25282a;
   
+    /* sets font family */
     font-family: sans-serif;
-    display: grid ;
+    
+    /* sets display property to grid */
+    display: grid;
+    
+    /* sets height to 100% */
     height: 100%;
   }
   
   .wrapper {
+    /* sets width of element */
     width: 400px;
   
+    /* centers the element horizontally and adds 30px margin on top and bottom */
     margin: 30px auto;
   
+    /* sets text color */
     color: #fff;
   
+    /* centers text within the element */
     text-align: center;
   }
   
   h2,
   h3 {
+    /* sets font family */
     font-family: "Roboto", sans-serif;
   
+    /* sets font weight */
     font-weight: 500;
   
+    /* sets font size */
     font-size: 2.6em;
   
+    /* transforms text to uppercase */
     text-transform: uppercase;
   }
   
   #seconds,
   #tens {
+    /* sets font size */
     font-size: 2em;
   }
   
   button {
+    /* adds rounded corners to button */
     -moz-border-radius: 5px;
-  
     -webkit-border-radius: 5px;
-  
     border-radius: 5px;
-  
     -khtml-border-radius: 5px;
   
+    /* sets background color */
     background: #a7dbf1;
   
+    /* sets text color */
     color: #25282a;
   
+    /* sets border color */
     border: solid 1px #fff;
   
+    /* removes text decoration */
     text-decoration: none;
   
+    /* sets cursor style */
     cursor: pointer;
   
+    /* sets font size */
     font-size: 1.2em;
   
+    /* sets padding */
     padding: 18px 10px;
   
+    /* sets width */
     width: 180px;
   
+    /* sets margin */
     margin: 10px;
   
+    /* removes outline */
     outline: none;
   }
   
   button:hover {
+    /* adds transition effect */
     -webkit-transition: all 0.5s ease-in-out;
-  
     -moz-transition: all 0.5s ease-in-out;
-  
     transition: all 0.5s ease-in-out;
   
+    /* changes background color on hover */
     background: #25282a;
   
+    /* changes border color on hover */
     border: solid 1px #a7dbf1;
   
+    /* changes text color on hover */
     color: #a7dbf1;
   }
