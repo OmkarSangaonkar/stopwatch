@@ -42,8 +42,14 @@ body {
   }
   
   #seconds,
-  #tens {
+  #tens,
+  #minute{
     /* sets font size */
+    font-size: 2em;
+    padding: 0.3rem;
+  }
+
+  .colons{
     font-size: 2em;
   }
   
